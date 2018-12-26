@@ -88,6 +88,7 @@ public final class SchemaInfoLevelBuilder
     minimum.setRetrieveTables(true);
     minimum.setRetrieveRoutines(true);
     minimum.setTag("minimum");
+    minimum.setRetrieveAdditionalDatabaseInfo(true);
     return minimum;
   }
 
@@ -105,6 +106,7 @@ public final class SchemaInfoLevelBuilder
     standard.setRetrieveIndexes(true);
     standard.setRetrieveRoutineColumns(true);
     standard.setTag("standard");
+    standard.setRetrieveAdditionalDatabaseInfo(true);
     return standard;
   }
 
